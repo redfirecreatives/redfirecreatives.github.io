@@ -26,8 +26,3 @@ jQuery(document).ready(function($) {
 });
 
 var countdown;
-
-
-countdown = setTimeout(function() {
-$('.dropdown-menu').hide();
-}, 2000);
