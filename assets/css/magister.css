@@ -14,7 +14,7 @@ body {
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.5em;
 	font-size:14px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "slabo 27px", Arial, sans-serif;
 	color:#fff;
 	color:rgba(255,255,255,.8); 
 	font-weight: normal;
@@ -88,6 +88,7 @@ body {
 	padding:10px 10px;
 	margin:0;
 	color:white;
+	font-family: "abel", Helvetica, sans-serif; 
 	text-decoration: none;
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
@@ -138,7 +139,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 
 .title,
 .subtitle { 
-	font-family: 'Wire One', Helvetica, Arial, sans-serif;
+	font-family: "Kaushan Script", Helvetica, Arial, sans-serif;
 	font-weight:normal;
 	font-size:7em;
 	margin-bottom:15px; 
