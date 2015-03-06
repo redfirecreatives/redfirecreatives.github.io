@@ -24,3 +24,13 @@ jQuery(document).ready(function($) {
 		return false;
 	});		
 });
+
+var countdown;
+
+$(".mainmenu").show().hover(function() {
+    clearTimeout(countdown);
+})
+
+countdown = setTimeout(function() {
+$('.mainmenu').hide();
+}, 5000);
