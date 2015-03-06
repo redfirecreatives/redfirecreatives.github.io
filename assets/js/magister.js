@@ -27,10 +27,7 @@ jQuery(document).ready(function($) {
 
 var countdown;
 
-$(".mainmenu").show().hover(function() {
-    clearTimeout(countdown);
-})
 
 countdown = setTimeout(function() {
-$('.mainmenu').hide();
-}, 5000);
+$('.dropdown-menu').hide();
+}, 2000);
